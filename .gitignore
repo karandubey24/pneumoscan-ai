@@ -5,3 +5,5 @@ __pycache__/
 data/
 kaggle.json
 *.zip
+samples/
+models/*_ckpt.keras
