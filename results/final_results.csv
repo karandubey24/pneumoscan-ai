@@ -1,0 +1,5 @@
+model,threshold mode,threshold,accuracy,precision,recall,f1,auc,TN,FP,FN,TP
+Baseline CNN,default (0.50),0.5,0.836,0.984,0.779,0.869,0.953,256,8,136,478
+Baseline CNN,tuned on validation,0.07,0.854,0.848,0.964,0.902,0.953,158,106,22,592
+MobileNetV2,default (0.50),0.5,0.958,0.978,0.961,0.97,0.99,251,13,24,590
+MobileNetV2,tuned on validation,0.77,0.949,0.985,0.941,0.963,0.99,255,9,36,578
